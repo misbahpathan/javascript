@@ -6,3 +6,15 @@ for(let i=0; i<a.length; i++){
 }
 
 
+//array of object
+
+let abc = [{name : 'siraj', age : 30},
+            {name : 'misba', age : 26},
+            {name : 'zainu', age : 2},
+            {name : 'zoyu', age : 2}]
+            
+for(let i=0; i<abc.length; i++){
+// console.log(abc[i].name, abc[i].age);
+console.log(`hello ${abc[i].name} ${abc[i].age}`)
+}
+
